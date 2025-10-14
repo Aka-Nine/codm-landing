@@ -4,7 +4,7 @@ export default function Section1() {
     return (
         <>
             {/*=====HERO AREA START =======*/}
-            <div className="hero8" style={{  }}>
+            <div className="hero8" style={{ backgroundImage: "url('/assets/img/background.jpg')" }}>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 m-auto text-center">
@@ -25,8 +25,8 @@ export default function Section1() {
                         </div>
                     </div>
                 </div>
-                <img src="assets/img/hero/hero8-image1.png" alt="" className="image1" />
-                <img src="assets/img/hero/hero8-image2.png" alt="" className="image2" />
+                {/* <img src="assets/img/hero/hero8-image1.png" alt="" className="image1" />
+                <img src="assets/img/hero/hero8-image2.png" alt="" className="image2" /> */}
             </div>
             {/*=====HERO AREA END=======*/}
         </>

@@ -12,11 +12,11 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/about/page": [
+    "/financial-services-cloud/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/about/page.css",
-      "static/chunks/app/about/page.js"
+      "static/css/app/financial-services-cloud/page.css",
+      "static/chunks/app/financial-services-cloud/page.js"
     ],
     "/contact/page": [
       "static/chunks/webpack.js",
