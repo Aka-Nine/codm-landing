@@ -20580,3 +20580,15 @@ li.has-dropdown1 span {
  NAV MENU AREA CSS
 ::::::::::::::::::::::::::
 */ /*# sourceMappingURL=main.css.map */
+/* In your global CSS file, e.g., globals.css */
+
+.floating-partner-badge {
+    position: fixed; /* Stays in place relative to the viewport */
+    bottom: 90px;    /* Moved up: 80px from the bottom (adjust as needed) */
+    right: 25px;     /* Distance from the right */
+    width: 70px;     /* Smaller width (adjust as needed, e.g., 60px, 50px) */
+    height: auto;    /* Maintain aspect ratio */
+    z-index: 999;    /* Ensure it's above most content, but BackToTop might be higher */
+  }
+  
+  

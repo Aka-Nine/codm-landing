@@ -15,9 +15,16 @@ export default function Layout({ children }: PropsWithChildren) {
     <div className="shell">
       <Header />
       <main>{children}</main>
+      
+      {/* ADD THIS IMAGE TAG */}
+      <img 
+        src="/assets/img/badge.png" // Path to your image
+        alt="Salesforce Ridge Partner" 
+        className="floating-partner-badge" 
+      />
+
       <BackToTop />
       <Footer />
     </div>
   );
 }
-
