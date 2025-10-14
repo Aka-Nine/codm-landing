@@ -1,55 +1,59 @@
-"use client";
-
 import Link from "next/link";
-import { useState, useEffect } from "react";
 import MobileMenu from "./MobileMenu";
 import MainMenu from "./MainMenu";
-import "../../public/assets/css/navBar.css";
+import MainMenuOnePage3 from "./MainMenuOnePage8";
 
-export default function Navbar() {
-  const [isSticky, setIsSticky] = useState(false);
-  const [isMobileMenu, setIsMobileMenu] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => setIsSticky(window.scrollY > 50);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const toggleMobileMenu = () => setIsMobileMenu(!isMobileMenu);
-
-  return (
-    <>
-      <header className={`navbar-area modern-navbar ${isSticky ? "sticky" : ""}`}>
-        <div className="container">
-          <div className="navbar">
-            {/* Logo */}
-            <div className="logo">
-              <Link href="/">
-                <img src="assets/img/logo/header-logo1.png" alt="CodM Logo" />
-              </Link>
+export default function Header({ scroll, isMobileMenu, handleMobileMenu, mainMenuStyle }: any) {
+    return (
+        <>
+            <header>
+                <div className={`header-area header-area4 header-area-all d-none d-lg-block ${scroll ? "sticky" : ""} `} id="header">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12">
+                                <div className="header-elements">
+                                    <div className="site-logo">
+                                        <Link href="/">
+                                            <img src="assets/img/logo/header-logo1.png" alt="" />
+                                        </Link>
+                                    </div>
+                                    <div className="main-menu-ex main-menu-ex1">
+                                        {!mainMenuStyle && <MainMenu />}
+                                        {mainMenuStyle == "one-page" ? <MainMenuOnePage3 /> : null}
+                                    </div>
+                                    <div className="header2-buttons">
+                                        <div className="button">
+                                            <Link className="theme-btn8" href="/contact">
+                                                Get A Quote
+                                                <span>
+                                                    <i className="fa-solid fa-arrow-right" />
+                                                </span>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <MobileMenu isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} />
+            </header>
+            <div className="mobile-header mobile-header-main d-block d-lg-none">
+                <div className="container-fluid">
+                    <div className="col-12">
+                        <div className="mobile-header-elements">
+                            <div className="mobile-logo">
+                                <Link href="/index1">
+                                    <img src="assets/img/logo/header-logo1.png" alt="" />
+                                </Link>
+                            </div>
+                            <div className="mobile-nav-icon" onClick={handleMobileMenu}>
+                                <i className="fa-duotone fa-bars-staggered" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            {/* Menu */}
-            <nav className="main-nav">
-              <MainMenu />
-            </nav>
-
-            {/* Right */}
-            <div className="nav-actions">
-              <Link href="/contact" className="nav-btn">
-                Contact Us <i className="fa-solid fa-arrow-right" />
-              </Link>
-              <button className="mobile-toggle" onClick={toggleMobileMenu}>
-                <i className="fa-solid fa-bars" />
-              </button>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      {/* Mobile */}
-      <MobileMenu isMobileMenu={isMobileMenu} handleMobileMenu={toggleMobileMenu} />
-    </>
-  );
+        </>
+    );
 }
