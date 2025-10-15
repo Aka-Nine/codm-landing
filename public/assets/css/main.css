@@ -3262,7 +3262,7 @@ body.body {
     color: var(--vtc-text-text-white-text-1);
     text-transform: capitalize;
     padding: 18px 22px 18px 22px;
-    background-color: var(--vtc-bg-main-bg-6);
+    background-color: #bc533a;
     overflow: hidden;
     z-index: 1;
     border-radius: 4px;
@@ -3274,7 +3274,7 @@ body.body {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #add9ec;
+    background-color: #bc533a;
     background-position: left center;
     transition-delay: 0.1s;
     transition-timing-function: ease-in-out;
@@ -3558,7 +3558,7 @@ body.body {
     line-height: 18px; /* 100% */
     text-transform: uppercase;
     display: inline-block;
-    background-color: #01a0e2;
+    background-color: #bc533a;
     border-radius: 8px;
     padding: 19px 22px;
     transition: all 0.4s;

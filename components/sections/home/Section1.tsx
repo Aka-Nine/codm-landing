@@ -15,7 +15,7 @@ export default function Section1() {
                                 <h1 className="text-anime-style-3">Empower Your Team with Salesforce Experts
                                 </h1>
                                 <div className="space30" />
-                                <Link className="theme-btn14" href="/service">
+                                <Link className="theme-btn14" href="#contact">
                                     Schedule a Consultation
                                 </Link>
                                 <div className="shape animate3">

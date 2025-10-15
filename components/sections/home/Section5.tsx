@@ -61,7 +61,7 @@ export default function Section5() {
                                                     ></div>
                                                     <div className="img-holder-img-bg" />
                                                     <div className="project-two__box-content-inner-icon">
-                                                        <Link href="#" className="img-popup">
+                                                        <Link href="#contact" className="img-popup">
                                                             <i className="icon-next" />
                                                         </Link>
                                                     </div>
@@ -69,11 +69,11 @@ export default function Section5() {
                                                         <div className="project-two__box-content-inner-wrapper">
                                                             <p>Transforming Business Processes </p>
                                                             <h4>
-                                                                <Link href="/project-details">Demonstrating Our Expertise</Link>
+                                                                <Link href="#contact">Demonstrating Our Expertise</Link>
                                                             </h4>
                                                         </div>
                                                         <div className="icon">
-                                                            <Link href="/project-details">
+                                                            <Link href="#contact">
                                                                 <i className="fa-solid fa-arrow-right" />
                                                             </Link>
                                                         </div>
@@ -102,7 +102,7 @@ export default function Section5() {
                                                             </h4>
                                                         </div>
                                                         <div className="icon">
-                                                            <Link href="/project-details">
+                                                            <Link href="#contact">
                                                                 <i className="fa-solid fa-arrow-right" />
                                                             </Link>
                                                         </div>
@@ -127,11 +127,11 @@ export default function Section5() {
                                                         <div className="project-two__box-content-inner-wrapper">
                                                             <p>Optimizing Customer Journeys </p>
                                                             <h4>
-                                                                <Link href="/project-details">Demonstrating Our Expertise</Link>
+                                                                <Link href="#contact">Demonstrating Our Expertise</Link>
                                                             </h4>
                                                         </div>
                                                         <div className="icon">
-                                                            <Link href="/project-details">
+                                                            <Link href="#contact">
                                                                 <i className="fa-solid fa-arrow-right" />
                                                             </Link>
                                                         </div>
@@ -166,7 +166,7 @@ export default function Section5() {
                                                             </h4>
                                                         </div>
                                                         <div className="icon">
-                                                            <Link href="/project-details">
+                                                            <Link href="#contact">
                                                                 <i className="fa-solid fa-arrow-right" />
                                                             </Link>
                                                         </div>
@@ -183,7 +183,7 @@ export default function Section5() {
                                                     ></div>
                                                     <div className="img-holder-img-bg" />
                                                         <div className="project-two__box-content-inner-icon">
-                                                            <Link href="/case-study" className="img-popup">
+                                                            <Link href="#contact" className="img-popup">
                                                             <i className="icon-next" />
                                                         </Link>
                                                     </div>
@@ -191,11 +191,11 @@ export default function Section5() {
                                                         <div className="project-two__box-content-inner-wrapper">
                                                             <p>Empowering Data Insights</p>
                                                             <h4>
-                                                                <Link href="/case-study">Demonstrating Our Expertise</Link>
+                                                                <Link href="#contact">Demonstrating Our Expertise</Link>
                                                             </h4>
                                                         </div>
                                                         <div className="icon">
-                                                            <Link href="/case-study">
+                                                            <Link href="#contact">
                                                                 <i className="fa-solid fa-arrow-right" />
                                                             </Link>
                                                         </div>
@@ -220,11 +220,11 @@ export default function Section5() {
                                                         <div className="project-two__box-content-inner-wrapper">
                                                             <p>Maximizing Client Success </p>
                                                             <h4>
-                                                                <Link href="/project-details">Demonstrating Our Expertise</Link>
+                                                                <Link href="#contact">Demonstrating Our Expertise</Link>
                                                             </h4>
                                                         </div>
                                                         <div className="icon">
-                                                            <Link href="/project-details">
+                                                            <Link href="#contact">
                                                                 <i className="fa-solid fa-arrow-right" />
                                                             </Link>
                                                         </div>
@@ -247,7 +247,7 @@ export default function Section5() {
                                                     ></div>
                                                     <div className="img-holder-img-bg" />
                                                         <div className="project-two__box-content-inner-icon">
-                                                            <Link href="/case-study" className="img-popup">
+                                                            <Link href="#contact" className="img-popup">
                                                             <i className="icon-next" />
                                                         </Link>
                                                     </div>
@@ -255,11 +255,11 @@ export default function Section5() {
                                                         <div className="project-two__box-content-inner-wrapper">
                                                             <p>Streamlining Salesforce Operations</p>
                                                             <h4>
-                                                                <Link href="/case-study">Demonstrating Our Expertise</Link>
+                                                                <Link href="#contact">Demonstrating Our Expertise</Link>
                                                             </h4>
                                                         </div>
                                                         <div className="icon">
-                                                            <Link href="/case-study">
+                                                            <Link href="#contact">
                                                                 <i className="fa-solid fa-arrow-right" />
                                                             </Link>
                                                         </div>
@@ -284,11 +284,11 @@ export default function Section5() {
                                                         <div className="project-two__box-content-inner-wrapper">
                                                             <p>Innovating With Salesforce </p>
                                                             <h4>
-                                                                <Link href="/project-details">Demonstrating Our Expertise</Link>
+                                                                <Link href="#contact">Demonstrating Our Expertise</Link>
                                                             </h4>
                                                         </div>
                                                         <div className="icon">
-                                                            <Link href="/project-details">
+                                                            <Link href="#contact">
                                                                 <i className="fa-solid fa-arrow-right" />
                                                             </Link>
                                                         </div>
@@ -313,11 +313,11 @@ export default function Section5() {
                                                         <div className="project-two__box-content-inner-wrapper">
                                                             <p>Driving Operational Excellence </p>
                                                             <h4>
-                                                                <Link href="/project-details">Demonstrating Our Expertise</Link>
+                                                                <Link href="#contact">Demonstrating Our Expertise</Link>
                                                             </h4>
                                                         </div>
                                                         <div className="icon">
-                                                            <Link href="/project-details">
+                                                                <Link href="#contact">
                                                                 <i className="fa-solid fa-arrow-right" />
                                                             </Link>
                                                         </div>

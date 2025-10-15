@@ -52,7 +52,7 @@ export default function Section5() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/">Requirement Analysis</Link>
+                                        <Link href="#contact">Requirement Analysis</Link>
                                     </h4>
                                     <p>Understanding the need, analyzing and documenting all the requirements.</p>
                                 </div>
@@ -66,7 +66,7 @@ export default function Section5() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/">Planning</Link>
+                                        <Link href="#contact">Planning</Link>
                                     </h4>
                                     <p>Defining scope, timelines, resources, and risk assessments for project execution.</p>
                                 </div>
@@ -80,7 +80,7 @@ export default function Section5() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/">Design</Link>
+                                        <Link href="#contact">Design</Link>
                                     </h4>
                                     <p>To guide development by creating system architecture, UI/UX, and database design.</p>
                                 </div>
@@ -95,7 +95,7 @@ export default function Section5() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/">Development</Link>
+                                        <Link href="#contact">Development</Link>
                                     </h4>
                                     <p>Writing efficient, scalable and clean code to implement the solutions.</p>
                                 </div>
@@ -109,7 +109,7 @@ export default function Section5() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/">Testing</Link>
+                                        <Link href="#contact">Testing</Link>
                                     </h4>
                                     <p>Ensuring quality through religious testing to identify and fix bugs.</p>
                                 </div>
@@ -123,7 +123,7 @@ export default function Section5() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/">Deployment & Maintenance</Link>
+                                        <Link href="#contact">Deployment & Maintenance</Link>
                                     </h4>
                                     <p>Launching product and providing support.</p>
                                 </div>

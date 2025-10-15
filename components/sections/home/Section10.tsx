@@ -14,7 +14,7 @@ export default function Section10() {
                                 <div className="space16" />
                                 <p>Feel free to customize this paragraph to better reflect the specific services offered by your IT solution &amp; the unique </p>
                                 <div className="form-area">
-                                    <form action="#">
+                                    <form action="#contact">
                                         <input type="email" placeholder="Your Email Address" />
                                         <div className="button">
                                             <button className="theme-btn14" type="submit">

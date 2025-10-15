@@ -27,10 +27,10 @@ export default function Section3() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Financial Services Cloud</Link>
+                                        <Link href="#contact">Financial Services Cloud</Link>
                                     </h4>
                                     <p>Leveraging FSC to provide a 360 degree view of clients by integrating data and automating processes to deliver smarter services.</p>
-                                    <Link href="/service-details" className="learn">
+                                    <Link href="#contact" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -46,10 +46,10 @@ export default function Section3() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Agentforce & AI</Link>
+                                        <Link href="#contact">Agentforce & AI</Link>
                                     </h4>
                                     <p>Enabling agents to deliver personalized support, automate repetitive tasks, and improve customer satisfaction with AI-powered insights.</p>
-                                    <Link href="/service-details" className="learn">
+                                    <Link href="#contact" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -65,10 +65,10 @@ export default function Section3() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Education Cloud</Link>
+                                        <Link href="#contact">Education Cloud</Link>
                                     </h4>
                                     <p>A platform for everything you need from streamlined operations to enhanced student engagement with the education cloud.</p>
-                                    <Link href="/service-details" className="learn">
+                                    <Link href="#contact" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -84,10 +84,10 @@ export default function Section3() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Salesforce Customer 360</Link>
+                                        <Link href="#contact">Salesforce Customer 360</Link>
                                     </h4>
                                     <p>Helping businesses deliver the seamless, personalized solutions with Salesforce Customer 360 degree.</p>
-                                    <Link href="/service-details" className="learn">
+                                    <Link href="#contact" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -103,10 +103,10 @@ export default function Section3() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Industries Services</Link>
+                                        <Link href="#contact">Industries Services</Link>
                                     </h4>
                                     <p>Accelerate growth using the industry cloud - tailored solutions and integration build for your unique requirements.</p>
-                                    <Link href="/service-details" className="learn">
+                                    <Link href="#contact" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -122,10 +122,10 @@ export default function Section3() {
                                 </div>
                                 <div className="heading">
                                     <h4>
-                                        <Link href="/service-details">Banking</Link>
+                                        <Link href="#contact">Banking</Link>
                                     </h4>
                                     <p>Helping banks to enhance their customer relationship and streamline processes using Salesforce Banking Service.</p>
-                                    <Link href="/service-details" className="learn">
+                                    <Link href="#contact" className="learn">
                                         learn more
                                         <span>
                                             <i className="fa-solid fa-arrow-right" />
@@ -139,7 +139,7 @@ export default function Section3() {
                     <div className="row">
                         <div className="col-lg-12">
                                 <div className="button text-center">
-                                <Link className="theme-btn14" href="/service">
+                                <Link className="theme-btn14" href="#contact">
                                     view more services
                                 </Link>
                             </div>

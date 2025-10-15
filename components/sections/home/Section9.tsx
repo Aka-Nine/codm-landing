@@ -10,7 +10,8 @@ export default function Section9() {
                         <div className="col-lg-6 m-auto text-center">
                             <div className="heading8">
                                 <span className="span" data-aos="zoom-in-left" data-aos-duration={700}>
-                                    <img src="assets/img/icons/contact3-icon1.png" alt="" /> Contact Us
+                                    {/* <img src="assets/img/icons/contact3-icon1.png" alt="" /> */}
+                                     Contact Us
                                 </span>
                                 <h2 className="text-anime-style-3">Let's Start The Conversation</h2>
                             </div>

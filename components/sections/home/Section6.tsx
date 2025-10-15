@@ -31,7 +31,7 @@ export default function Section6() {
                                     </div>
                                     <div className="heading8">
                                         <h4>
-                                            <Link href="/service-details">Expert Guidance</Link>
+                                            <Link href="#contact">Expert Guidance</Link>
                                         </h4>
                                         <p>Certified Salesforce professionals helping you navigate every stage of your CRM journey.</p>
                                     </div>
@@ -48,7 +48,7 @@ export default function Section6() {
                                     </div>
                                     <div className="heading8">
                                         <h4>
-                                            <Link href="/service-details">Tailored Solutions</Link>
+                                            <Link href="#contact">Tailored Solutions</Link>
                                         </h4>
                                         <p>Custom Salesforce implementations designed to fit your unique business needs.</p>
                                     </div>
@@ -64,7 +64,7 @@ export default function Section6() {
                                     </div>
                                     <div className="heading8">
                                         <h4>
-                                            <Link href="/service-details">Continuous Support</Link>
+                                            <Link href="#contact">Continuous Support</Link>
                                         </h4>
                                         <p>Ongoing assistance, training, and optimization to ensure long-term success.</p>
                                     </div>

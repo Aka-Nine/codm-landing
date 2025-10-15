@@ -60,7 +60,7 @@ export default function Section2() {
                                 </div>
                                 <div className="space30" />
                                 <div className="button" data-aos="fade-right" data-aos-duration={1200}>
-                                    <Link className="theme-btn14" href="/about">
+                                    <Link className="theme-btn14" href="#contact">
                                         Join Our Network
                                     </Link>
                                 </div>
