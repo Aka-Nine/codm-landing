@@ -49,13 +49,13 @@ export default function Footer() {
                                 <h3>Services</h3>
                                 <ul className="menu-list">
                                     <li>
-                                        <Link href="/financial-services-cloud">Financial Services Cloud</Link>
+                                        <Link href="#">Financial Services Cloud</Link>
                                     </li>
                                     <li>
-                                        <Link href="agentforce-&-ai">Agentforce & Al</Link>
+                                        <Link href="#">Agentforce & Al</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">Education Cloud&nbsp;</Link>
+                                        <Link href="#">Education Cloud</Link>
                                     </li>
                                     <li>
                                         <Link href="#">Salesforce Customer 360</Link>
@@ -71,19 +71,19 @@ export default function Footer() {
                                 <h3>Quick Links</h3>
                                 <ul className="menu-list">
                                     <li>
-                                        <Link href="/">Home </Link>
+                                        <Link href="#home">Home </Link>
                                     </li>
                                     <li>
-                                        <Link href="/about">About Us</Link>
+                                        <Link href="#about">About Us</Link>
                                     </li>
                                     <li>
-                                        <Link href="/service">Service</Link>
+                                        <Link href="#service">Service</Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog">Blog</Link>
+                                        <Link href="#blog">Blog</Link>
                                     </li>
                                     <li>
-                                        <Link href="/contact">Contact Us</Link>
+                                        <Link href="#contact">Contact Us</Link>
                                     </li>
                                 </ul>
                             </div>
